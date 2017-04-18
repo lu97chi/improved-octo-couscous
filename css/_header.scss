@@ -1,0 +1,70 @@
+header{
+    background: url(../img/Header.jpg);
+    background-size: cover;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    .containerLogMenu{
+        padding: 15px 0;
+        border-bottom: 2px solid rgba(255,255,255,0.4);
+        .log{
+            a{
+                display: block;
+                img{
+                    vertical-align: top;
+                }
+            }
+            h2{
+                display: inline-block;
+                vertical-align: bottom;
+                color: #fff;
+            }
+        }
+        .menu{
+            text-align: right;
+            line-height: 50px;
+            padding-top: 10px;
+            a{
+                color: #fff;
+                margin-left: 60px;
+                font-size: 22px;
+            }
+        }
+    }
+    .text{
+        color: #eae5e5;
+        text-align: center;
+        margin: 185px 0;
+        .firstLine{
+            font-size: 35px;
+            line-height: 35px;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        .secondLine{
+            font-size: 25px;
+            line-height: 25px;
+            margin-bottom: 60px;
+            font-weight: 100;
+        }
+        .buttons{
+            a{   
+                border-radius: 4px;
+                border: 2px solid #fff;
+                color:#fff;
+                padding: 12px 0;
+                display: inline-block;
+                font-weight: 700;
+                width: 35%;
+                text-align: center;
+                margin: 0 5%;
+                &:hover{
+                    text-decoration: none;
+                    background: #fff;
+                    color: #4f4f4f;
+                }
+            }
+        }
+    }
+}

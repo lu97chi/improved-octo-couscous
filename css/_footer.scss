@@ -1,0 +1,54 @@
+footer{
+    .dir{
+        background: #3c4045;
+        padding: 30px 0;
+        color: #fff;
+        .tittle{
+            font-size: 32px;
+            line-height: 32px;
+            margin-bottom: 30px;
+        }
+        .street,email,tel{
+            margin-bottom: 10px;
+        }
+        
+        .log{
+            margin-top: 70px;
+            h2{
+                display: inline-block;
+                vertical-align: bottom;
+                letter-spacing: 3px;
+            }
+        }
+    }
+    .social{
+        text-align: center;
+        padding: 20px 0;
+        a{
+            padding: 10px;
+            display: inline-block;
+            margin: 0 20px;
+            width: 50px;
+            font-size: 24px;
+            color: #fff;
+            background: #000;
+            text-align: center;
+            border-radius: 100%;
+            &:hover{
+                text-decoration: none;
+            }
+            &.facebook{
+                background: #3b5998;
+            }
+            &.twitter{
+                background: #55acee;
+            }
+            &.youtube{
+                background: #cd201f;
+            }
+            &.link{
+                background: #0077b5;
+            }
+        }
+    }
+}

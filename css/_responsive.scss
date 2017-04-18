@@ -1,0 +1,112 @@
+@media screen and (max-width:992px){
+    header{
+        .containerLogMenu{
+            .log{
+                margin-bottom: 20px;
+                text-align: center;
+            }
+            .menu{
+                text-align: center;
+                a{
+                    margin: 0 20px;
+                }
+            }
+        }
+        .text{
+            margin: 75px 0;
+            font-size: 16px;
+            .firstLine{
+                font-size: 1.5em;
+            }
+            .secondLine{
+                font-size: 1.3em;
+            }
+            .buttons{
+                a{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .main{
+        .pictures{
+            .pic{
+                .tittle{
+                    margin-top: 0;
+                }
+            }
+        }
+        .cli{
+            a{
+                margin: 20px;
+            }
+        }
+        .reviews{
+            .tittle{
+                font-size: 20px;
+            }
+            .customer{
+                .review{
+                    .texto{
+                        font-size: 12px;
+                    }
+                    .name{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+    header{
+        .menu{
+            font-size: 12px;
+        }
+        .text{
+            .buttons{
+                a{
+                    width: 40%;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .main{
+        .pictures{
+            .pic{
+                .text{
+                    .tittle{
+                        font-size: 22px;
+                    }
+                    p{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .reviews{
+            .tittle{
+                font-size: 14px;
+            }
+            .customer{
+                .review{
+                    .texto{
+                        font-size: 10px;
+                    }
+                }
+                .picture{
+                    display: none;
+                }
+            }
+        }
+    }
+    footer{
+        .social{
+            a{
+                margin: 10px;
+            }
+        }
+    }
+}
